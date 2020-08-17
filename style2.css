@@ -478,6 +478,7 @@ body {
 @media (max-width: 450px) {
   .nav {
     height: 15vh;
+    visibility: visible;
   }
   .nav .nav-list {
     position: absolute;
@@ -587,13 +588,16 @@ body {
   }
   .main-section .main-container .main-text h1 {
     font-size: 2.4rem;
+    visibility: visible;
   }
   .main-section .main-container .main-text p {
     font-size: 0.9rem;
     padding-bottom: 2rem;
+    visibility: visible;
   }
   .main-section .main-container .main-text .btn {
     padding: 0.7rem 1.5rem;
+    visibility: visible;
   }
   .main-section .main-container .main-text .bg-pattern-intro-left-mobile {
     display: block;
@@ -611,6 +615,7 @@ body {
   .main-section .main-container .main-image .image-intro-desktop {
     position: static;
     height: 100%;
+    visibility: visible;
   }
   .how-we-work-section {
     height: 280vh;

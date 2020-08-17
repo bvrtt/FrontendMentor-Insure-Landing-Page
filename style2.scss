@@ -401,6 +401,7 @@ body {
 @media (max-width: 450px) {
   .nav {
     height: 15vh;
+    visibility: visible;
 
     .nav-list {
       position: absolute;
@@ -496,15 +497,18 @@ body {
 
         h1 {
           font-size: 2.4rem;
+          visibility: visible;
         }
 
         p {
           font-size: 0.9rem;
           padding-bottom: 2rem;
+          visibility: visible;
         }
 
         .btn {
           padding: 0.7rem 1.5rem;
+          visibility: visible;
         }
 
         .bg-pattern-intro-left-mobile {
@@ -526,6 +530,7 @@ body {
         .image-intro-desktop {
           position: static;
           height: 100%;
+          visibility: visible;
         }
       }
     }
