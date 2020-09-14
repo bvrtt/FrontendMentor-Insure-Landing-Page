@@ -7,8 +7,20 @@ burger.addEventListener("click", () => {
   navList.classList.toggle("nav-active");
 });
 
-//Main animations for devices with more than 450px width
 const windowWidth = window.innerWidth;
+
+//Close navbar on click
+const navItems = document.querySelectorAll(".nav-item");
+if (windowWidth < 450) {
+  navItems.forEach((item) => {
+    item.addEventListener("click", () => {
+      burger.classList.remove("burger-active");
+      navList.classList.remove("nav-active");
+    });
+  });
+}
+
+//Main animations for devices with more than 450px width
 const nav = document.querySelector(".nav");
 const mainTitle = document.querySelector(".main-title");
 const mainParagraph = document.querySelector(".main-paragraph");
